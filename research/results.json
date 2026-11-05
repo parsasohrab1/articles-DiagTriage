@@ -1,0 +1,96 @@
+{
+ "note": "real UCI CTG records; classes: normal 1655, suspect 295, pathologic 176; 50 random splits 50/25/25",
+ "n": 2126,
+ "models": {
+  "logistic": {
+   "accuracy_argmax": 0.8952255639097746,
+   "rules": {
+    "argmax": {
+     "coverage": 0.8952255639097746,
+     "coverage_pathologic": 0.7431818181818179,
+     "referral_rate": 0.0,
+     "accuracy_on_automatic": 0.8952255639097746,
+     "pathologic_auto_missed": 0.0890909090909091,
+     "pathologic_referred_or_correct": 0.7431818181818179
+    },
+    "marginal_0.05": {
+     "coverage": 0.9487969924812029,
+     "coverage_pathologic": 0.8204545454545457,
+     "referral_rate": 0.1345488721804511,
+     "accuracy_on_automatic": 0.9444027641706522,
+     "pathologic_auto_missed": 0.05590909090909091,
+     "pathologic_referred_or_correct": 0.8327272727272728
+    },
+    "classwise_0.05": {
+     "coverage": 0.9512030075187969,
+     "coverage_pathologic": 0.9554545454545454,
+     "referral_rate": 0.2749624060150376,
+     "accuracy_on_automatic": 0.9550060418385791,
+     "pathologic_auto_missed": 0.01090909090909091,
+     "pathologic_referred_or_correct": 0.9568181818181819
+    },
+    "marginal_0.1": {
+     "coverage": 0.901390977443609,
+     "coverage_pathologic": 0.7463636363636365,
+     "referral_rate": 0.02894736842105263,
+     "accuracy_on_automatic": 0.9067723480110996,
+     "pathologic_auto_missed": 0.07681818181818181,
+     "pathologic_referred_or_correct": 0.765
+    },
+    "classwise_0.1": {
+     "coverage": 0.9020676691729322,
+     "coverage_pathologic": 0.9159090909090909,
+     "referral_rate": 0.09537593984962406,
+     "accuracy_on_automatic": 0.9035241422329466,
+     "pathologic_auto_missed": 0.019090909090909092,
+     "pathologic_referred_or_correct": 0.9163636363636363
+    }
+   }
+  },
+  "forest": {
+   "accuracy_argmax": 0.9325563909774435,
+   "rules": {
+    "argmax": {
+     "coverage": 0.9325563909774435,
+     "coverage_pathologic": 0.8336363636363636,
+     "referral_rate": 0.0,
+     "accuracy_on_automatic": 0.9325563909774435,
+     "pathologic_auto_missed": 0.07136363636363637,
+     "pathologic_referred_or_correct": 0.8336363636363636
+    },
+    "marginal_0.05": {
+     "coverage": 0.9509022556390978,
+     "coverage_pathologic": 0.8486363636363636,
+     "referral_rate": 0.0487593984962406,
+     "accuracy_on_automatic": 0.9521226290029877,
+     "pathologic_auto_missed": 0.05818181818181818,
+     "pathologic_referred_or_correct": 0.8663636363636364
+    },
+    "classwise_0.05": {
+     "coverage": 0.954360902255639,
+     "coverage_pathologic": 0.9595454545454545,
+     "referral_rate": 0.18928571428571428,
+     "accuracy_on_automatic": 0.9518371313209387,
+     "pathologic_auto_missed": 0.006363636363636364,
+     "pathologic_referred_or_correct": 0.9618181818181819
+    },
+    "marginal_0.1": {
+     "coverage": 0.9013909774436091,
+     "coverage_pathologic": 0.749090909090909,
+     "referral_rate": 0.05763157894736842,
+     "accuracy_on_automatic": 0.9564413357480059,
+     "pathologic_auto_missed": 0.030454545454545453,
+     "pathologic_referred_or_correct": 0.9231818181818181
+    },
+    "classwise_0.1": {
+     "coverage": 0.9018796992481204,
+     "coverage_pathologic": 0.9127272727272726,
+     "referral_rate": 0.05785714285714286,
+     "accuracy_on_automatic": 0.9210095469893207,
+     "pathologic_auto_missed": 0.005,
+     "pathologic_referred_or_correct": 0.9313636363636363
+    }
+   }
+  }
+ }
+}
